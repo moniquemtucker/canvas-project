@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome to Portland!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body onload="hideImage()">
+
+    <div id="mainContainer">
+      <div id="welcomeContainer">
+        <canvas id="welcomeCanvas" width="800" height="800">
+          Your browser does not support the canvas element.
+        </canvas>
+        <p id="exp-btn"><button onclick="portlandCanvas()" type="button" class="btn btn-success" >Experience Portland now!</button></p>
+    </div>
+
+    <img id="oregon" src="Oregon.jpg" alt="Heart of Oregon" width="600" height="472">
+
+      <div id="portlandContainer">
+      <canvas id="portlandCanvas" width="800" height="800">
+        Your browser does not support the HTML5 canvas tag.
+      </canvas>
+      </div>
+
+    </div>
+
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="js/app.js" type="text/javascript"></script>
+	<script src="canvas.js" type="text/javascript"></script>
+
+  </body>
+</html>

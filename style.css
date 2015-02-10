@@ -1,0 +1,30 @@
+#welcomeContainer {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#exp-btn {
+	position: absolute; 
+	top: 500px; 
+	left: 600px;
+}
+
+#portlandContainer {
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.mainContainer {
+    position: relative;
+    width: 800px;
+    height: 800px;
+}
+
+.mainContainter canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
