@@ -11,24 +11,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body onload="hideImage()">
+  <body onLoad="hidePortland()">
 
     <div id="mainContainer">
       <div id="welcomeContainer">
         <canvas id="welcomeCanvas" width="800" height="800">
           Your browser does not support the canvas element.
         </canvas>
-        <p id="exp-btn"><button onclick="portlandCanvas()" type="button" class="btn btn-success" >Experience Portland now!</button></p>
-    </div>
-
-    <img id="oregon" src="Oregon.jpg" alt="Heart of Oregon" width="600" height="472">
-
-      <div id="portlandContainer">
-      <canvas id="portlandCanvas" width="800" height="800">
-        Your browser does not support the HTML5 canvas tag.
-      </canvas>
+        <p id="exp-btn"><button onclick="init()" type="button" class="btn btn-success" >Experience Portland now!</button></p>
       </div>
 
+      <div id="portlandContainer">
+        <div id="heartContainer"></div>
+        <canvas id="portlandCanvas" width="800" height="800" style="background-image:url('Oregon.jpg'); background-repeat: no-repeat;">
+            Your browser does not support the canvas element.
+        </canvas>
+
+      </div>
     </div>
 
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>

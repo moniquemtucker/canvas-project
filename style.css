@@ -5,8 +5,8 @@
 
 #exp-btn {
 	position: absolute; 
-	top: 500px; 
-	left: 600px;
+	top: 60%; 
+	left: 45%;
 }
 
 #portlandContainer {
@@ -26,5 +26,13 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+#heartContainer {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 30%;
+	left: 35%;
 }
 
